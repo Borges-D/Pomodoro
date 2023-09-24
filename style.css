@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image:  url(/img/bg-mobile.jpg);
+    width: 360px;
+    margin: 56px auto 0px;
+    padding: 0 24px;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#timer {
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+#minutes, #seconds {
+    display: inline-block;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#buttons {
+    margin-top: 50px;
+}
+
+button {
+    padding: 20px 10px;
+    margin: 0 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
