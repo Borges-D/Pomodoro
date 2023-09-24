@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <div id="timer">
+        <div id="minutes">25</div>
+        <div id="seconds">00</div>
+    </div>
+    <div id="buttons">
+        <button onclick="startTimer('work')">Start Work</button>
+        <button onclick="startTimer('shortBreak')">Start Short Break</button>
+        <button onclick="startTimer('longBreak')">Start Long Break</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <audio id="alarm" src="alarm.mp3"></audio> <!-- Adicione o arquivo de áudio (alarm.mp3) -->
+
+    <script src="script.js"></script>
+</body>
+</html>
